@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T21:31:08.749Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="2Tuqcokyd4F5cSzBLr_O" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-25T21:39:33.104Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="NHwOmVZRvXJ6AwTVJGG6" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="3122" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -288,7 +288,10 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-34" value="treehouse = True" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-40" y="215" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-36" value="append to shedDoor()&lt;br&gt;Looking to the side, you can see where the path is hidden behind an overgrown bush." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-43" value="go down path" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-36" target="ivbzf-HTEXW1V83epDQX-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-36" value="[append to shedDoor()]&lt;br&gt;Looking to the side, you can see where the path is hidden behind an overgrown bush." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="40" width="160" height="85" as="geometry" />
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-38" target="ivbzf-HTEXW1V83epDQX-40">
@@ -297,8 +300,29 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-38" value="treehouse = True" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="460" y="-335" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-40" value="[add to patio()]&lt;br&gt;Now that you know what to look for, you can see the hint of the path out behind the shed.." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-325" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-40" value="[append to patio()]&lt;br&gt;Now that you know what to look for, you can see the hint of the path out behind the shed.." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-350" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-45" value="climb the ladder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-42" target="ivbzf-HTEXW1V83epDQX-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-42" value="The path goes just a dozen feet into the trees, before ending at the trunk of one large tree. There are wooden slats nailed to the trunk. Looking up, you realize there&#39;s a treehouse tucked into the branches." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="10" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-47" value="look out the windows" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-44" target="ivbzf-HTEXW1V83epDQX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-51" value="move the tarp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-44" target="ivbzf-HTEXW1V83epDQX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-44" value="The treehouse is small, but nice. There&#39;s a lump in the corner under a tarp which is weighed down with stones. There are a couple of windows looking out." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-200" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-46" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="-360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-50" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
