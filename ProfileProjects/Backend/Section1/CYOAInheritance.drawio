@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T21:05:33.775Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="MCe4tUmdEdlVSIDVrfwm" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-25T21:31:08.749Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="2Tuqcokyd4F5cSzBLr_O" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
-    <mxGraphModel dx="2272" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3122" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-18" value="open the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="C1p4UqmkGTLzhGbceTVw-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-7" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;The door is a light grey, with bits of paint flecking off. There&#39;s dark blue paint beneath. There&#39;s a mat in front of the door that says &quot;Welcome.&quot; There is a&amp;nbsp; metal mailbox under the doorbell.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;direction=south;" parent="1" vertex="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-7" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;frontDoor()&lt;br&gt;The door is a light grey, with bits of paint flecking off. There&#39;s dark blue paint beneath. There&#39;s a mat in front of the door that says &quot;Welcome.&quot; There is a&amp;nbsp; metal mailbox under the doorbell.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;direction=south;" parent="1" vertex="1">
           <mxGeometry x="175" y="570" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-13" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#33001A;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C1p4UqmkGTLzhGbceTVw-11" target="C1p4UqmkGTLzhGbceTVw-14" edge="1">
@@ -95,8 +95,11 @@
             <mxPoint x="-170" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-29" value="The shed is weathered, but sturdy. The door is painted a cheerful red." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="380" width="120" height="90" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-29" target="ivbzf-HTEXW1V83epDQX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-29" value="shedDoor()&lt;br&gt;The shed is weathered, but sturdy. The door is painted a cheerful red. There are stumps on either side of the door, like there may have been shrubs here at some point.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="365" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-34" value="to the garden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-31" target="C1p4UqmkGTLzhGbceTVw-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -108,7 +111,7 @@
           <mxGeometry x="390" y="50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-33" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;You enter the gazebo. It&#39;s nice, if run down. There are flower boxes along the outside, but they&#39;ve been empty for years.&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;direction=west;" parent="1" vertex="1">
-          <mxGeometry x="390" y="-190" width="120" height="150" as="geometry" />
+          <mxGeometry x="360" y="-180" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-35" target="C1p4UqmkGTLzhGbceTVw-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -131,7 +134,10 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-52" value="check the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-35" target="C1p4UqmkGTLzhGbceTVw-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-35" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;The patio is stone, though there are weeds pushing through the cracks. There&#39;s an old fountain to one side, maybe it was once lovely, but now it&#39;s covered in grime and moss. The opposite side of the patio has a covered fire pit, the stones have held up fairly well, but a few have fallen down. In the middle of the patio is a rusty set of chairs and a small cafe table, overlooking the overgrown back yard. There is a door into the house on the patio as well.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-35" target="ivbzf-HTEXW1V83epDQX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-35" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;patio()&lt;br&gt;The patio is stone, though there are weeds pushing through the cracks. There&#39;s an old fountain to one side, maybe it was once lovely, but now it&#39;s covered in grime and moss. The opposite side of the patio has a covered fire pit, the stones have held up fairly well, but a few have fallen down. In the middle of the patio is a rusty set of chairs and a small cafe table, overlooking the overgrown back yard. There is a door into the house on the patio as well.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="590" y="-120" width="170" height="300" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-41" value="check the fountain" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-39" target="C1p4UqmkGTLzhGbceTVw-35" edge="1">
@@ -140,7 +146,7 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-43" value="pick up the pail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-39" target="C1p4UqmkGTLzhGbceTVw-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-39" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Closer up, the fountain isn&#39;t quite as grimy as you thought, but it&#39;s still got muck built up at the bottom. Most of the discoloration is just some mice soft moss covering the stone. An old pail is on it&#39;s side at the bottom.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-39" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;fountain()&lt;br&gt;Closer up, the fountain isn&#39;t quite as grimy as you thought, but it&#39;s still got muck built up at the bottom. Most of the discoloration is just some mice soft moss covering the stone. An old pail is on its side at the bottom.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="602.5" y="-350" width="145" height="180" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-42" value="&lt;span style=&quot;color: rgb(40 , 61 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px&quot;&gt;You now have the pail. It&#39;s still pretty gross.... [pail]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -149,10 +155,10 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-50" value="pick up the rusty bar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-44" target="C1p4UqmkGTLzhGbceTVw-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-44" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;The table is pretty rusty, and so are the chairs. A rusty bar from one chair lies under the table.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-44" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;table()&lt;br&gt;The table is pretty rusty, and so are the chairs. A rusty bar from one chair lies under the table.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="870" y="-160" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-46" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;The fire pit is a half-sphere of stone, with some of the bricks missing from the structure. A few of these are in the center of the pit.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-46" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;firepit()&lt;br&gt;The fire pit is a half-sphere of stone, with some of the bricks missing from the structure. A few of these are in the center of the pit.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="880" y="50" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-49" value="&lt;span style=&quot;color: rgb(40 , 61 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;You now have a rusty bar. You try to remember when you had your last tetanus shot... [rustyBar]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -176,7 +182,7 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-14" value="check the knick-knacks and trinkets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-59" target="ivbzf-HTEXW1V83epDQX-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-59" value="The living room furniture has been covered in dust cloths. Under those, you see rich red fabric, undisturbed by time. There are shelves on the wall,&amp;nbsp; mostly filled with knick-knacks and trinkets. Charcoal sketches hang on the wall.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-59" value="livingRoom()&lt;br&gt;The living room furniture has been covered in dust cloths. Under those, you see rich red fabric, undisturbed by time. There are shelves on the wall,&amp;nbsp; mostly filled with knick-knacks and trinkets. Charcoal sketches hang on the wall.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1350" y="500" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-61" value="hallway()&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -241,11 +247,11 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-17" value="Key:redDoor?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-260" y="385" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-21" target="ivbzf-HTEXW1V83epDQX-25">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-26" value="go into the room" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-21" target="ivbzf-HTEXW1V83epDQX-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-21" value="The shed is dark. There&#39;s only one window to let in light, at the far end of the little building, and the door behind you. You struggle to see through the gloom." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="230" width="180" height="90" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-21" value="The shed is dark. The door behind you lets in a little light, but the only other light is a small line of light outlining a small window on the other side of the building.. You struggle to see through the gloom." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="210" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-24" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-23" target="ivbzf-HTEXW1V83epDQX-17">
           <mxGeometry relative="1" as="geometry" />
@@ -253,8 +259,46 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-23" value="The door is locked" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-490" y="480" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-25" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="235" width="80" height="80" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-28" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-25" target="ivbzf-HTEXW1V83epDQX-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-780" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-25" target="ivbzf-HTEXW1V83epDQX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-25" value="Lantern?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="235" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-27" value="You go in a few steps and can&#39;t see any better. You retreat to the door. If only there was light..." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-33" value="open the shade" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-29" target="ivbzf-HTEXW1V83epDQX-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-29" value="You turn on the lantern. The shed is clearly an art workshop. There are a couple of windows you can see, but they&#39;ve all been boarded up except for two. One at the back has a window air conditioner, though it&#39;s off for now. The other window not boarded up has a fabric windowshade pulled down over it. Art supplies litter the shed. A pegboard with various tools takes up one long wall, and a sturdy table sits along the back wall. You didn&#39;t realize your uncle did wordworking, but the wood shavings on the floor tell another story. Some paint brushes and easels lay in palces." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="50" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-32" value="Light trickles in as you open the shade. It&#39;s on the wall facing away from the driveway and you can see mostly just trees, with a little bit of the back yard. But you also see a path into the trees that hadn&#39;t been visible...&lt;br&gt;&lt;br&gt;[treehouse = True]" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-34" target="ivbzf-HTEXW1V83epDQX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-34" value="treehouse = True" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="215" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-36" value="append to shedDoor()&lt;br&gt;Looking to the side, you can see where the path is hidden behind an overgrown bush." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="40" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-38" target="ivbzf-HTEXW1V83epDQX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-38" value="treehouse = True" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-40" value="[add to patio()]&lt;br&gt;Now that you know what to look for, you can see the hint of the path out behind the shed.." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-325" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
