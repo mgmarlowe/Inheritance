@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-24T22:07:57.492Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="gnZk3JTjTzEbaDHizRON" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-25T21:05:33.775Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="MCe4tUmdEdlVSIDVrfwm" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2272" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,9 +9,10 @@
             <mxPoint x="310" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-28" value="to the shed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#33001A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C1p4UqmkGTLzhGbceTVw-1" target="C1p4UqmkGTLzhGbceTVw-29" edge="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-28" value="to the shed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="C1p4UqmkGTLzhGbceTVw-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="420" as="targetPoint" />
+            <mxPoint x="240" y="420" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-30" value="to the garden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-1" target="C1p4UqmkGTLzhGbceTVw-31" edge="1">
@@ -89,8 +90,13 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-25" value="foyer()&lt;br&gt;You&#39;re in a foyer. There is an open doorway to the left that you glimpse a table through. It must be the dining room. To the right is another open doorway, leading to what you know is the living room. The open doorway in front of you leads to the hallway. There is a closed door beside the hall doorway." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="495" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-16" value="open the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-29" target="ivbzf-HTEXW1V83epDQX-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-170" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-29" value="The shed is weathered, but sturdy. The door is painted a cheerful red." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-60" y="380" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-34" value="to the garden" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-31" target="C1p4UqmkGTLzhGbceTVw-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -167,8 +173,11 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-57" value="The dining room has a table with six chairs, and a china hutch one wall. Art hangs on the wall. You recognize your uncle&#39;s style, though not the subjects. Most are nature scenes you don&#39;t recognize, but one is of a woman.. She is lovely in a way that makes your eyes hurt. A swinging door is on the far wall." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="140" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-59" value="" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-14" value="check the knick-knacks and trinkets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-59" target="ivbzf-HTEXW1V83epDQX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-59" value="The living room furniture has been covered in dust cloths. Under those, you see rich red fabric, undisturbed by time. There are shelves on the wall,&amp;nbsp; mostly filled with knick-knacks and trinkets. Charcoal sketches hang on the wall.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="500" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-61" value="hallway()&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="770" width="120" height="60" as="geometry" />
@@ -222,6 +231,30 @@
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-11" value="hallway()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1317.5" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-13" value="The decorative odds and ends don&#39;t clutter the room, and the shelves seem to have different themes. The actual shelves double as art, in interesting geometric patterns. One shelf hold a variety of crystals and stones. Another holds dried flowers. One interesting little cabinet with a door has different bottles in weird shapes, with colorful liquids inside." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="500" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-22" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-17" target="ivbzf-HTEXW1V83epDQX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-17" value="Key:redDoor?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="385" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-21" target="ivbzf-HTEXW1V83epDQX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-21" value="The shed is dark. There&#39;s only one window to let in light, at the far end of the little building, and the door behind you. You struggle to see through the gloom." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="230" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-24" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-23" target="ivbzf-HTEXW1V83epDQX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-23" value="The door is locked" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="480" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-25" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="235" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
