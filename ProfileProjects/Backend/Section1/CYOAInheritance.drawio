@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T21:39:33.104Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="NHwOmVZRvXJ6AwTVJGG6" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-26T23:58:23.166Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="JDvHm-cxSzC_KsaIBRNp" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="3122" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -318,11 +318,17 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-44" value="The treehouse is small, but nice. There&#39;s a lump in the corner under a tarp which is weighed down with stones. There are a couple of windows looking out." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-370" y="-200" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-46" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-355" y="-360" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-46" value="Out the window, you can just make out the patio behind the house as well as the roof. Looking down, you can make out a faint line of bare dirt completely circling the treehouse. Curious..." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-367.5" y="-440" width="145" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-50" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="-180" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-53" value="look in the locker" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-50" target="ivbzf-HTEXW1V83epDQX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-50" value="You move the stones and the tarp. Underneath is an old footlocker. There is no lock on it, but it looks well-used." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-190" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-52" value="You open the locker. Inside, there&#39;s a letter with your name on it. Beneath that is an odd collection of things. Books on fairy lore, closed boxes,&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
