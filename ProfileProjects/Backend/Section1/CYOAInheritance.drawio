@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T19:50:28.677Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="4j9s80D56WFlMHlViw0t" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T21:53:42.093Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="xhRoPo4-xbixGj3STjuW" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
-    <mxGraphModel dx="3122" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2625" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,8 +20,8 @@
             <mxPoint x="460" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-1" value="&lt;span style=&quot;font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;Your uncle has been missing for thirty years, and has now been declared dead. You have inherited his house. You&#39;re standing in front of the house, which has been maintained by his lawyers over the years. The door is a calm light grey. To the left, you see a path to the back of the house. To the right, you see a smaller building, possibly a shed.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
-          <mxGeometry x="250" y="180" width="120" height="320" as="geometry" />
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-1" value="&lt;span style=&quot;font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;Your uncle has been missing since you were a child. Through mysterious instructions left to his lawyer, you have now been bequeathed his house and property. You&#39;re standing in front of the house, which has been maintained by his lawyers over the years. The door is a calm light grey. To the left, you see a path to the back of the house. To the right, you see a smaller building, possibly a shed.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="230" y="180" width="140" height="320" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-8" value="to the house" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="C1p4UqmkGTLzhGbceTVw-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
