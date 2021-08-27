@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T19:03:05.950Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="nOJvnpCyXBqyeH0xcMcD" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T19:50:28.677Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="4j9s80D56WFlMHlViw0t" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="3122" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -81,7 +81,7 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-60" value="go to the living room" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-25" target="C1p4UqmkGTLzhGbceTVw-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-62" value="go to the hallway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-25" target="C1p4UqmkGTLzhGbceTVw-61" edge="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-62" value="go to the hallway/foyer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-25" target="C1p4UqmkGTLzhGbceTVw-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-64" value="open the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-25" target="C1p4UqmkGTLzhGbceTVw-63" edge="1">
@@ -185,10 +185,37 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-59" value="livingRoom()&lt;br&gt;The living room furniture has been covered in dust cloths. Under those, you see rich red fabric, undisturbed by time. There are shelves on the wall,&amp;nbsp; mostly filled with knick-knacks and trinkets. Charcoal sketches hang on the wall.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1350" y="500" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-68" value="lgo to the bathroom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-61" target="ivbzf-HTEXW1V83epDQX-67">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-68" value="go to the bathroom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-61" target="ivbzf-HTEXW1V83epDQX-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-61" value="hallway()&lt;br&gt;The hallway seems to stretch the whole house. There is an open door to a bathroom. On the same side is an open door leading to a study, and a hallway. The opposit side of the hall has a closed door, a hallway, and another closed door. On one far side is a doorway to the back patio, and on the other is the doorway to the foyer." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-61" target="ivbzf-HTEXW1V83epDQX-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-71" value="go to the study" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ivbzf-HTEXW1V83epDQX-70">
+          <mxGeometry x="-0.2167" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-73" value="go to the mudroom" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-61" target="ivbzf-HTEXW1V83epDQX-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-74" value="go to the star room" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-61" target="ivbzf-HTEXW1V83epDQX-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-76" value="go to the kitchen" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-61" target="ivbzf-HTEXW1V83epDQX-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="930" />
+              <mxPoint x="710" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-61" value="hallway()&lt;br&gt;The hallway seems to stretch the whole house. There is an open door to a bathroom. On the same side is an open door leading to a study, and a hallway. The opposite side of the hall has a door to the kitchen and a closed door with a star painted on it. On one far side is a mud room with the doorway to the back patio, and on the other is the doorway to the foyer." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="770" width="210" height="160" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-66" value="rummage through the pockets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C1p4UqmkGTLzhGbceTVw-63" target="C1p4UqmkGTLzhGbceTVw-67" edge="1">
@@ -365,8 +392,20 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-65" value="You put on the cuffs and torque.. They sit heavy and cold on your skin..." style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1330" y="-70" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-67" value="The bathroom is tastefully decorated.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1265" y="820" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-67" value="bathroom()&lt;br&gt;The bathroom is tastefully decorated. The bar of soap is shaped like a seashell." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="800" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-69" value="study()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-72" value="mudroom()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-75" value="starRoom()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-77" value="kitchen()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
