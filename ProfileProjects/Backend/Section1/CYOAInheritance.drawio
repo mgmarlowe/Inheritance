@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-26T23:58:23.166Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="JDvHm-cxSzC_KsaIBRNp" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T18:54:31.080Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="GPQ1Y3dYrIE-8KTxSltc" version="14.9.8" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="3122" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -327,8 +327,40 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-50" value="You move the stones and the tarp. Underneath is an old footlocker. There is no lock on it, but it looks well-used." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-660" y="-190" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-52" value="You open the locker. Inside, there&#39;s a letter with your name on it. Beneath that is an odd collection of things. Books on fairy lore, closed boxes,&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="-180" width="120" height="60" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-55" value="read the letter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-52" target="ivbzf-HTEXW1V83epDQX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-57" value="loopen the boxes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-52" target="ivbzf-HTEXW1V83epDQX-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-52" value="You open the locker. Inside, there&#39;s a letter with your name on it. Beneath that is an odd collection of things. Books on fairy lore, closed boxes, odd crystals, an odd variety of items with no obvious purpose." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="-240" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-54" value="You open the letter and read.&lt;br&gt;&quot;I hope you never have to read this, as it will mean I&#39;ve failed. But if I fail, you&#39;re my only hope. I should start at the beginning, but I must keep this brief. There&#39;s not much time left before she comes to collect.&amp;nbsp;&lt;br&gt;About a year ago I met a woman at a park. I had taken my supplies out to paint the scenery and became swept up in the inspiration I felt in that spot. When I dragged my focus out of my art, she was there watching me. She was lovely in a way I had never seen, all sharp edges and too-bright colors. I have a difficult time remembering much of the month after that, just flashes of color and emotions too sharp to be natural. I was with her constantly, it seemed.&lt;br&gt;Finally she left me alone for a day or two and I returned to myself, recalling some of what I had experienced. Long story short, I discovered that the Fae do exist. She is, roughly, a noble in the Seelie Court. While they are known for being kind to us mortals, they are also known for finding artists and inspiring them. This sounds lovely at first, but it is an inspiration that is all-consuming. I have painted until I cannot see straight. I believe there were days when I did not sleep or eat, overcome with the need to put my thoughts to canvas or paper. She consumes me as she inspires. The glamour of the Fae fades with time, but it is also an addiction. Alone now, I cannot think to hold a brush or pencil, my mind craves the rush she inspired. It is hateful.&lt;br&gt;I have made a deal with her, in my furour. I recalled it after the fact. The Fae, if you recall from when we read fairy tales when you were younger, are bound by their words. They cannot lie, and if they make a deal, they cannot break it. They are creatures of magic and the magic cannot lie. My deal is this: my art made by her inspiration will endure one hundred years after I am gone, a lasting legacy. As long as my legacy endured through my art, I will serve her as a hound for the Wild Hunt. Looking back on it, I found the loophole and I need your help to exploit it. Burn my work. The inspired works are all of her, as the Fae are vain and she wished to be my subject. There are five works devoted to her, you will know them when you see them. There are two in frames, they will resist being taken down without help. I&#39;ve found an iron dagger to leave you and have packed it in a box for the locker. Use that. Iron is poison to them, and cancels their magic. There is a box included with iron cuffs and an iron necklet. I thought to wear them myself, but they will not help me now that I have made my deal. I hope she does not take notice of you, but they may be helpful if she does.&amp;nbsp;&lt;br&gt;Once you have my works, burn them with the herbs I have also included. Fire and herbs are enough to break the glamour she has cast and let the works burn. Once they are gone, she will have to release me.&amp;nbsp;&lt;br&gt;Be careful. She is crafty and you will want to follow her lead. Do not let her hounds get you, they, and I, only follow her, and will tear you apart at her command. Only predators are part of the Wild Hunt, and she is a predator. The hounds are an extension of her.&amp;nbsp;&lt;br&gt;Free me, I beg you. I did not mean for this to happen.&quot;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="-780" width="920" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-61" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;take the box of herbs&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-56" target="ivbzf-HTEXW1V83epDQX-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1270" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-64" value="take the dagger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-56" target="ivbzf-HTEXW1V83epDQX-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-66" value="wear the cuff and torque" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-56" target="ivbzf-HTEXW1V83epDQX-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-56" value="You open the boxes. They have an odd assortment of items. One contains just dried herbs and flowers, one has a set of metal wrist cuffs and a torque of the same metal. Another has a dagger, the blade flecked with rust." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="-290" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-62" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;You take the box of herbs...&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="-410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-63" value="You take the dagger.." style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="-255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-65" value="You put on the cuffs and torque.. They sit heavy and cold on your skin..." style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1330" y="-70" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
