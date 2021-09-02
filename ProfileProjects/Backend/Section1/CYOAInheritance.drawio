@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T21:50:42.894Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="3E9xvayy_2ko7wvDLlPy" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T23:21:49.420Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="UHokmT98IryY2AZOAu1i" version="15.0.3" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2803" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-18" value="open the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="C1p4UqmkGTLzhGbceTVw-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng76LLmk9pm0ENqtQ28f-2" value="check under the mat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="Ng76LLmk9pm0ENqtQ28f-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-7" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;frontDoor()&lt;br&gt;The door is a light grey, with bits of paint flecking off. There&#39;s dark blue paint beneath. There&#39;s a mat in front of the door that says &quot;Welcome.&quot; There is a&amp;nbsp; metal mailbox under the doorbell.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;direction=south;" parent="1" vertex="1">
@@ -407,6 +410,9 @@
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-77" value="kitchen()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ng76LLmk9pm0ENqtQ28f-1" value="There&#39;s nothing under here..." style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
