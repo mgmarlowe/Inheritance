@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T21:11:01.291Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="9rbO2QrSAef7RsFJ9ju0" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T21:50:42.894Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="3E9xvayy_2ko7wvDLlPy" version="15.0.3" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2803" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,7 +170,7 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-51" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(40, 64, 89); font-family: &amp;quot;cerebri sans&amp;quot;; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;The door is faded blue, and there is an old mat that says &quot;Oh, it&#39;s you...&quot;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="615" y="290" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="C1p4UqmkGTLzhGbceTVw-53" value="&lt;span style=&quot;color: rgb(40 , 61 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;You now have a key! [mailbox]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="C1p4UqmkGTLzhGbceTVw-53" value="&lt;span style=&quot;color: rgb(40 , 61 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;You now have a small metal key! It&#39;s too small for a door... [mailbox]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="880" y="305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-70" value="go through the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-57" target="C1p4UqmkGTLzhGbceTVw-69" edge="1">
