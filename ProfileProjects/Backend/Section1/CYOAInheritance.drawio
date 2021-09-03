@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T23:21:49.420Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="UHokmT98IryY2AZOAu1i" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-03T23:27:15.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="Xfe74-M1JPGka1an9qHG" version="15.0.6" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
-    <mxGraphModel dx="2803" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2908" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-18" value="open the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="C1p4UqmkGTLzhGbceTVw-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ng76LLmk9pm0ENqtQ28f-2" value="check under the mat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="Ng76LLmk9pm0ENqtQ28f-1">
+        <mxCell id="Ng76LLmk9pm0ENqtQ28f-2" value="check under the mat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C1p4UqmkGTLzhGbceTVw-7" target="Ng76LLmk9pm0ENqtQ28f-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-7" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;frontDoor()&lt;br&gt;The door is a light grey, with bits of paint flecking off. There&#39;s dark blue paint beneath. There&#39;s a mat in front of the door that says &quot;Welcome.&quot; There is a&amp;nbsp; metal mailbox under the doorbell.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#33001A;strokeColor=#000000;gradientColor=#ffffff;direction=south;" parent="1" vertex="1">
@@ -177,6 +177,9 @@
           <mxGeometry x="880" y="305" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-70" value="go through the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-57" target="C1p4UqmkGTLzhGbceTVw-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mkMS6epUEn-W77HvyGmR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-57" target="mkMS6epUEn-W77HvyGmR-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-57" value="The dining room has a table with six chairs, and a china hutch one wall. Art hangs on the wall. You recognize your uncle&#39;s style, though not the subjects. Most are nature scenes you don&#39;t recognize, but one is of a woman.. She is lovely in a way that makes your eyes hurt. A swinging door is on the far wall." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -411,8 +414,36 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-77" value="kitchen()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="960" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ng76LLmk9pm0ENqtQ28f-1" value="There&#39;s nothing under here..." style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="Ng76LLmk9pm0ENqtQ28f-1" value="There&#39;s nothing under here..." style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-100" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mkMS6epUEn-W77HvyGmR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mkMS6epUEn-W77HvyGmR-1" target="mkMS6epUEn-W77HvyGmR-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="-300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="-20" />
+              <mxPoint x="1040" y="-150" />
+              <mxPoint x="1120" y="-150" />
+              <mxPoint x="1120" y="-260" />
+              <mxPoint x="1110" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkMS6epUEn-W77HvyGmR-6" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkMS6epUEn-W77HvyGmR-4">
+          <mxGeometry x="0.4592" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkMS6epUEn-W77HvyGmR-7" value="cut down painting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkMS6epUEn-W77HvyGmR-4">
+          <mxGeometry x="0.4701" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkMS6epUEn-W77HvyGmR-1" value="treehouse = True&amp;nbsp;&lt;br&gt;and&lt;br&gt;dagger in inventory" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="-20" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mkMS6epUEn-W77HvyGmR-10" value="You use the dagger to slice down the painting. There is a horrible pressure against your mind and your ears, like someone is screaming, and then it&#39;s done. You have the horrible, lovely painting. You fold it roughly to keep from seeing it." style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-430" width="240" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
