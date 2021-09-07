@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T21:07:25.095Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="2WAmVKwlayrNmHHNLY0k" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T21:10:12.357Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="8Jl24QHoZZlcaUAZ83iX" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="3129" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -480,10 +480,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-9" value="if dagger?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1380" width="80" height="80" as="geometry" />
+          <mxGeometry x="535" y="1380" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-11" value="You take out the rusty dagger. Your hand shakes as you start towards the painting. You are unwilling to take off the cloth again, so you go around to the back of the canvas. You take down the canvas and set it face down on the floor before cutting the painting away from the frame.&lt;br&gt;&lt;br&gt;As you cut, your hands begin shaking. A horrible pressure starts against your ears, feeling like a scream against your ears." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1550" width="260" height="190" as="geometry" />
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-11" value="You take out the rusty dagger. Your hand shakes as you start towards the painting. You are unwilling to take off the cloth again, so you go around to the back of the canvas. You take down the canvas and set it face down on the floor before cutting the painting away from the frame.&lt;br&gt;&lt;br&gt;As you cut, your hands begin shaking. A horrible pressure starts against your ears, feeling like a scream against your ears. You work through the pain, and finally manage to cut away the painting. You quickly fold the canvas, taking care to keep the horrible picture inside.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="1550" width="305" height="220" as="geometry" />
         </mxCell>
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F1Y0bVKN-tRgpUZh1NhY-13" target="F1Y0bVKN-tRgpUZh1NhY-7">
           <mxGeometry relative="1" as="geometry" />
