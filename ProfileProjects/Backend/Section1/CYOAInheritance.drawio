@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T23:27:15.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="Xfe74-M1JPGka1an9qHG" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T19:59:44.285Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="GLy7CneTGSKdc-yHXC9w" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
-    <mxGraphModel dx="2908" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3369" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,7 +179,7 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-70" value="go through the door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-57" target="C1p4UqmkGTLzhGbceTVw-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mkMS6epUEn-W77HvyGmR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-57" target="mkMS6epUEn-W77HvyGmR-1">
+        <mxCell id="mkMS6epUEn-W77HvyGmR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C1p4UqmkGTLzhGbceTVw-57" target="mkMS6epUEn-W77HvyGmR-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-57" value="The dining room has a table with six chairs, and a china hutch one wall. Art hangs on the wall. You recognize your uncle&#39;s style, though not the subjects. Most are nature scenes you don&#39;t recognize, but one is of a woman.. She is lovely in a way that makes your eyes hurt. A swinging door is on the far wall." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -223,7 +223,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-61" value="hallway()&lt;br&gt;The hallway seems to stretch the whole house. There is an open door to a bathroom. On the same side is an open door leading to a study, and a hallway. The opposite side of the hall has a door to the kitchen and a closed door with a star painted on it. On one far side is a mud room with the doorway to the back patio, and on the other is the doorway to the foyer." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="770" width="210" height="160" as="geometry" />
+          <mxGeometry x="930" y="750" width="210" height="180" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-66" value="rummage through the pockets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C1p4UqmkGTLzhGbceTVw-63" target="C1p4UqmkGTLzhGbceTVw-67" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -405,11 +405,19 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-69" value="study()" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="815" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-72" value="mudroom()" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="1060" width="120" height="60" as="geometry" />
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-1" value="check the shelves" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-72" target="F1Y0bVKN-tRgpUZh1NhY-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-75" value="starRoom()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="1050" width="120" height="60" as="geometry" />
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-4" value="go through the back door" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ivbzf-HTEXW1V83epDQX-72" target="F1Y0bVKN-tRgpUZh1NhY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-72" value="mudroom()&lt;br&gt;The mudroom has an old washer and dryer, and a set of shelves. The door to the back patio has a set of curtains hanging over the window. Old boots with dried mud sat under a bench beside the door, and an weathered jacket hung on a peg.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1060" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ivbzf-HTEXW1V83epDQX-75" value="starRoom()&lt;br&gt;The star room is a second bedroom. It has walls painted blue, and was clearly not used much, even before your uncle disappeared.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="980" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-77" value="kitchen()" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="720" y="960" width="120" height="60" as="geometry" />
@@ -417,7 +425,7 @@
         <mxCell id="Ng76LLmk9pm0ENqtQ28f-1" value="There&#39;s nothing under here..." style="whiteSpace=wrap;html=1;rounded=1;fontColor=#33001A;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-100" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mkMS6epUEn-W77HvyGmR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mkMS6epUEn-W77HvyGmR-1" target="mkMS6epUEn-W77HvyGmR-10">
+        <mxCell id="mkMS6epUEn-W77HvyGmR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mkMS6epUEn-W77HvyGmR-1" target="mkMS6epUEn-W77HvyGmR-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1120" y="-300" as="targetPoint" />
             <Array as="points">
@@ -429,21 +437,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mkMS6epUEn-W77HvyGmR-6" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkMS6epUEn-W77HvyGmR-4">
+        <mxCell id="mkMS6epUEn-W77HvyGmR-6" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mkMS6epUEn-W77HvyGmR-4" vertex="1" connectable="0">
           <mxGeometry x="0.4592" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mkMS6epUEn-W77HvyGmR-7" value="cut down painting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mkMS6epUEn-W77HvyGmR-4">
+        <mxCell id="mkMS6epUEn-W77HvyGmR-7" value="cut down painting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="mkMS6epUEn-W77HvyGmR-4" vertex="1" connectable="0">
           <mxGeometry x="0.4701" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mkMS6epUEn-W77HvyGmR-1" value="treehouse = True&amp;nbsp;&lt;br&gt;and&lt;br&gt;dagger in inventory" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="mkMS6epUEn-W77HvyGmR-1" value="treehouse = True&amp;nbsp;&lt;br&gt;and&lt;br&gt;dagger in inventory" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1015" y="-20" width="145" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mkMS6epUEn-W77HvyGmR-10" value="You use the dagger to slice down the painting. There is a horrible pressure against your mind and your ears, like someone is screaming, and then it&#39;s done. You have the horrible, lovely painting. You fold it roughly to keep from seeing it." style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="mkMS6epUEn-W77HvyGmR-10" value="You use the dagger to slice down the painting. There is a horrible pressure against your mind and your ears, like someone is screaming, and then it&#39;s done. You have the horrible, lovely painting. You fold it roughly to keep from seeing it." style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1010" y="-430" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-6" value="take the lantern" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F1Y0bVKN-tRgpUZh1NhY-2" target="F1Y0bVKN-tRgpUZh1NhY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-2" value="shelves()&lt;br&gt;The shelves have old laundry products and some garden tools. On one shelf is a battery-powered lantern and spare batteries." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1180" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-3" value="patio()" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-5" value="You put the new batteries in the lantern and check the light. It turns on and it&#39;s pretty bright. You now have a working lantern!&lt;br&gt;[lantern]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1165" y="1365" width="175" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
