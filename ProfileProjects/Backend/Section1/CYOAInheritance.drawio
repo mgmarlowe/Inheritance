@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T18:52:36.778Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="8kzIZmhrJJAzQcn7sU39" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T19:22:03.486Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="cOoFOBAtbZwT1KTO1K1e" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2545" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -421,7 +421,7 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-72" value="mudroom()&lt;br&gt;The mudroom has an old washer and dryer, and a set of shelves. The door to the back patio has a set of curtains hanging over the window. Old boots with dried mud sat under a bench beside the door, and an weathered jacket hung on a peg.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="850" y="1060" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-75" value="starRoom()&lt;br&gt;The star room is a second bedroom. It has walls painted blue, and was clearly not used much, even before your uncle disappeared." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-75" value="starRoom()&lt;br&gt;The star room is a second bedroom. It has walls painted blue, and was clearly not used much, even before your uncle disappeared." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1430" y="980" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-77" value="kitchen()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
