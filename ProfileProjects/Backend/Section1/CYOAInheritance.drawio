@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T19:57:58.447Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="UpU-mueqBtVPlnLO7DO7" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T20:00:18.452Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="oBn96hkvfMTZb4-RKKRp" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
-    <mxGraphModel dx="2545" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2387" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,11 +161,20 @@
         <mxCell id="C1p4UqmkGTLzhGbceTVw-44" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;table()&lt;br&gt;The table is pretty rusty, and so are the chairs. A rusty bar from one chair lies under the table.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="870" y="-160" width="120" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="-U3S4BL-I2otBNEfXWNs-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="C1p4UqmkGTLzhGbceTVw-46" target="-U3S4BL-I2otBNEfXWNs-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="-560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="50" />
+              <mxPoint x="1000" y="-590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-46" value="&lt;span style=&quot;color: rgb(40 , 64 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;firepit()&lt;br&gt;The fire pit is a half-sphere of stone, with some of the bricks missing from the structure. A few of these are in the center of the pit.&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" parent="1" vertex="1">
           <mxGeometry x="880" y="50" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-49" value="&lt;span style=&quot;color: rgb(40 , 61 , 89) ; font-family: &amp;#34;cerebri sans&amp;#34; ; font-size: 14px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; display: inline ; float: none&quot;&gt;You now have a rusty bar. You try to remember when you had your last tetanus shot... [rustyBar]&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="830" y="-350" width="185" height="95" as="geometry" />
+          <mxGeometry x="770" y="-342.5" width="185" height="95" as="geometry" />
         </mxCell>
         <mxCell id="C1p4UqmkGTLzhGbceTVw-54" value="check under the mat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" parent="1" source="C1p4UqmkGTLzhGbceTVw-51" target="C1p4UqmkGTLzhGbceTVw-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -511,6 +520,9 @@
         </mxCell>
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-21" value="You now have the horrible painting...&lt;br&gt;[horriblePainting]" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="492.5" y="1810" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-U3S4BL-I2otBNEfXWNs-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
