@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T21:27:07.004Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="PA5H3k5gfJpdaWADjA91" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T00:20:40.807Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="w-jjTEWXJah3MP0jwO4s" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2797" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -343,8 +343,8 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-45" value="climb the ladder" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ivbzf-HTEXW1V83epDQX-42" target="ivbzf-HTEXW1V83epDQX-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-42" value="The path goes just a dozen feet into the trees, before ending at the trunk of one large tree. There are wooden slats nailed to the trunk. Looking up, you realize there&#39;s a treehouse tucked into the branches." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-390" y="10" width="160" height="120" as="geometry" />
+        <mxCell id="ivbzf-HTEXW1V83epDQX-42" value="treehouse_path()&lt;br&gt;The path goes just a dozen feet into the trees, before ending at the trunk of one large tree. There are wooden slats nailed to the trunk. Looking up, you realize there&#39;s a treehouse tucked into the branches." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="-10" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-47" value="look out the windows" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ivbzf-HTEXW1V83epDQX-44" target="ivbzf-HTEXW1V83epDQX-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
