@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T19:24:10.158Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="pcIb0O5XnhE465xYMoF-" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T19:36:28.579Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="9umec9Iw9L4qXOzmBa42" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2545" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -471,7 +471,7 @@
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F1Y0bVKN-tRgpUZh1NhY-7" target="F1Y0bVKN-tRgpUZh1NhY-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-7" value="You carefully take the cloth off the canvas. The subject is a terrible, beautiful woman, looking straight at you. Her eyes were so entrancing...&lt;br&gt;&lt;br&gt;&lt;i&gt;#TODO Find python equivilent of setTimeout() and pause program for a while, with the program printing a spacing line every second or two.&lt;br&gt;&lt;/i&gt;&lt;br&gt;You tear your eyes away from the painting, shaking and sweating. Your heart pounds against your ribs, and you shakily pull the cloth back over the painting. You never want to see it again." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-7" value="You carefully take the cloth off the canvas. The subject is a terrible, beautiful woman, looking straight at you. Her eyes were so entrancing...&lt;br&gt;&lt;br&gt;&lt;i&gt;#TODO Find python equivilent of setTimeout() and pause program for a while, with the program printing a spacing line every second or two.&lt;br&gt;&lt;/i&gt;&lt;br&gt;You tear your eyes away from the painting, shaking and sweating. Your heart pounds against your ribs, and you shakily pull the cloth back over the painting. You never want to see it again." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="415" y="1120" width="320" height="190" as="geometry" />
         </mxCell>
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-12" value="cut down painting" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F1Y0bVKN-tRgpUZh1NhY-9" target="F1Y0bVKN-tRgpUZh1NhY-11" edge="1">
@@ -503,10 +503,10 @@
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-20" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F1Y0bVKN-tRgpUZh1NhY-15" target="F1Y0bVKN-tRgpUZh1NhY-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-15" value="You stare at the cloth-covered canvas. Do you really want to look again...?" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-15" value="You stare at the cloth-covered canvas. Do you really want to look again...?" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="260" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-19" value="Probably a good choice..." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="F1Y0bVKN-tRgpUZh1NhY-19" value="Probably a good choice..." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="60" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-21" value="You now have the horrible painting...&lt;br&gt;[horriblePainting]" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
