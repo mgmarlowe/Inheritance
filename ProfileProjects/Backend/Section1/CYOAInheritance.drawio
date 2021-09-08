@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T18:50:17.806Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="F5a2z57PDJ-64AdcOx1o" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T18:52:36.778Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="8kzIZmhrJJAzQcn7sU39" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2545" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -387,7 +387,7 @@
         <mxCell id="ivbzf-HTEXW1V83epDQX-66" value="wear the cuff and torque" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ivbzf-HTEXW1V83epDQX-56" target="ivbzf-HTEXW1V83epDQX-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-56" value="You open the boxes. They have an odd assortment of items. One contains just dried herbs and flowers, one has a set of metal wrist cuffs and a torque of the same metal. Another has a dagger, the blade flecked with rust." style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-56" value="You open the boxes. They have an odd assortment of items. One contains just dried herbs and flowers, one has a set of metal wrist cuffs and a torque of the same metal. Another has a dagger, the blade flecked with rust." style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-1330" y="-290" width="160" height="125" as="geometry" />
         </mxCell>
         <mxCell id="ivbzf-HTEXW1V83epDQX-62" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; display: inline; float: none;&quot;&gt;You take the box of herbs...&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
