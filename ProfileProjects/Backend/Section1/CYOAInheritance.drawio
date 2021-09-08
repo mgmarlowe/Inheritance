@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T19:22:03.486Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="cOoFOBAtbZwT1KTO1K1e" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T19:24:10.158Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="pcIb0O5XnhE465xYMoF-" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
     <mxGraphModel dx="2545" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -407,7 +407,7 @@
             <mxPoint x="575" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ivbzf-HTEXW1V83epDQX-69" value="study()&lt;br&gt;The study was your uncle&#39;s main studio, as well as office. It still has an easel with a canvas on it, covered with a paint-splattered cloth. The desk has a few papers on it, and there were two large bookshelves behind it.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="ivbzf-HTEXW1V83epDQX-69" value="study()&lt;br&gt;The study was your uncle&#39;s main studio, as well as office. It still has an easel with a canvas on it, covered with a paint-splattered cloth. The desk has a few papers on it, and there were two large bookshelves behind it.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="480" y="810" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="F1Y0bVKN-tRgpUZh1NhY-1" value="check the shelves" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ivbzf-HTEXW1V83epDQX-72" target="F1Y0bVKN-tRgpUZh1NhY-2" edge="1">
