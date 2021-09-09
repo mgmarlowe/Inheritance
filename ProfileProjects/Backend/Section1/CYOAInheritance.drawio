@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T20:42:36.138Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="-NSEL7HVAsjIlkih2Gyt" version="15.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T22:17:44.520Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.3 Safari/537.36" etag="jPDAss5L0pHCPCAglAfm" version="15.1.1" type="github">
   <diagram id="I4MPYZuKWGXdrDoHl7-Y" name="Page-1">
-    <mxGraphModel dx="2435" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3219" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -528,7 +528,7 @@
         <mxCell id="-U3S4BL-I2otBNEfXWNs-3" value="if all five sketches in inventory and herbs in inventory and matches in inventory." style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="890" y="-625" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="-U3S4BL-I2otBNEfXWNs-5" value="You pile all five of your uncle&#39;s glamored works into the fire pit and dump the herbs on top. Then you strike a match and hold it to one of the sketches. The flames catch and, slowly, they begin to spread. The flames seem to move slower than normal, until one of the herbs catches. As that happens, the flames seem to roar, growing and moving faster.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;" vertex="1" parent="1">
+        <mxCell id="-U3S4BL-I2otBNEfXWNs-5" value="You pile all five of your uncle&#39;s glamored works into the fire pit and dump the herbs on top. Then you strike a match and hold it to one of the sketches. The flames catch and, slowly, they begin to spread. The flames seem to move slower than normal, until one of the herbs catches. As that happens, the flames seem to roar, growing and moving faster.&amp;nbsp;&lt;br&gt;&lt;br&gt;You hear hounds baying in the distance..." style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;" vertex="1" parent="1">
           <mxGeometry x="880" y="-980" width="240" height="180" as="geometry" />
         </mxCell>
       </root>
