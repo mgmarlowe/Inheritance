@@ -7,6 +7,8 @@ import pickle
 # Import os.path to check if save file exists
 import os.path
 save_exists = os.path.isfile("data.pickle")
+# Import time to delay events with time.sleep()
+import time
 
 
 # === Menu options and utility functions
@@ -344,8 +346,12 @@ def study():
 
     if choice == "1":
         if data["painting"] == False:
-            # TODO Find python equivilent of setTimeout() and pause program for a while, with the program printing a spacing line every second or two.
-            print(fill("You carefully take the cloth off the canvas. The subject is a terrible, beautiful woman, looking straight at you. Her eyes were so entrancing...\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou tear your eyes away from the painting, shaking and sweating. Your heart pounds against your ribs, and you shakily pull the cloth back over the painting. You never want to see it again."))
+            print(fill("You carefully take the cloth off the canvas. The subject is a terrible, beautiful woman, looking straight at you. Her eyes were so entrancing..."))
+            for _ in range(30):
+                print("........")
+                time.sleep(2)
+
+            print(fill("You tear your eyes away from the painting, shaking and sweating. Your heart pounds against your ribs, and you shakily pull the cloth back over the painting. You never want to see it again."))
             data["painting"] = True
         else:
             print(fill("You stare at the cloth-covered canvas and your hands start to shake. You don't want to see that again..."))
@@ -598,7 +604,7 @@ def boxes():
 
 
 
-def treehouse(): # TODO Finish this function
+def treehouse():
     print(fill("The treehouse is small, but nice. There's an old footlocker against one wall. There are a couple of windows looking out."))
     print("1) Look out the window")
     print("2) Look in the footlocker")
@@ -607,7 +613,13 @@ def treehouse(): # TODO Finish this function
     choice = get_choice(options)
 
     if choice == "1":
-        print("")
+        print(fill("Out the window, you can just make out the patio behind the house as well as the roof. Looking down, you can make out a faint line of bare dirt completely circling the treehouse. Curious..."))
+    elif choice == "2":
+        if "herbs" in data["inventory"]:
+            locker()
+        else:
+            locker_first()
+
 
 
 # ======   Areas associated with Back Yard   ======
@@ -772,12 +784,14 @@ def back_door():
 
 
 def burn():
+    global data
     print(fill("You pile all five of your uncle's glamored works into the fire pit and dump the herbs on top. Then you strike a match and hold it to one of the sketches. The flames catch and, slowly, they begin to spread. The flames seem to move slower than normal, until one of the herbs catches. As that happens, the flames seem to roar, growing and moving faster. \n\nYou hear hounds baying in the distance... Are they getting closer?"))
     print("1) They're definitely getting closer. Run to the treehouse.")
     print("2) Stay where you are. It's probably nothing..")
 
     options = ("1", "2")
     choice = get_choice(options)
+    data["burned"] = True
 
     if choice == "1":
         treehouse_run()
@@ -794,22 +808,63 @@ def bad_burn():
     choice = get_choice(options)
 
     if choice == "1":
-        print(fill("You strike a match and hold it to one of the sketches. The flame catches, finally, and slowly begins to spread. The flames move slower than usual, and don't move to the center of any of the works. Even the sketches on dry paper don't do more than curl at the edges. The flames begin to die out, and in the distance, you begin to hear hounds baying...."))
+        firepit_choice()
     elif choice == "2":
         patio()
 
 
-def firepit_stand(): # TODO Story: The works don't burn, you are glamoured. If cuffs, you're not, but the hounds attack you, and game fades to black as you become hunted. if no cuffs, you can't wait to be a hound for your new lady.
-    print("Under construction")
+def firepit_choice():
+    print(fill("You strike a match and hold it to one of the sketches. The flame catches, finally, and slowly begins to spread. The flames move slower than usual, and don't move to the center of any of the works. Even the sketches on dry paper don't do more than curl at the edges. The flames begin to die out, and in the distance, you begin to hear hounds baying...."))
+    print("1) Run to the treehouse")
+    print("2) Stand your ground")
+
+    options = ("1", "2")
+    choice = get_choice(options)
+
+    if choice == "1":
+        treehouse_run()
+    elif choice== "2":
+        firepit_stand()
+
+
+def firepit_stand():
+    global data
+    print(fill("You begin to shake as hounds appear as if from nowhere. They are red and white and huge, and they circle around you, hackles up and teeth bared. But the worst of it is the woman. You don't see her approach, she just suddenly is there in front of you. She is horribly lovely, and much too close. She smiles. \"Meddlesome,\" she says. Her voice seeps into you and you relax, smiling. She looks at the slightly sooty art in the firepit and seems amused.\n\"You have caused me some irritation, child. But I see no lasting harm has been done.\"\nShe looks back at you, smile growing to show too many teeth.\n\"Now then, come, join my pack.\" Her hand reaches out to you."))
+    while True:
+        choice = input("Press Enter to continue")
+
+        if choice == "":
+            if data["cuffs"] == True:
+                print(fill("Heat has been building on your hands and wrists, and now it reaches an uncomfortable level, almost burnig. You jolt away from her reaching hand, stumbling back from her. She still seems amused as you turn and begin to run. A laugh sounds out behind you as you hear the easy command.\n\"Hunt.\"\n\nGrowls and panting sounds behind you. You run."))
+                data["end"] = "worst"
+            else:
+                print(fill("You step towards her hand, eager to serve, and she laughs. You feel a shiver over your skin as your body begins to change. But she is still laughing, and you trust she will do what is best for you. Your tail begins to wag as she reaches down to put a hand on your head. Your Lady loves you, and you begin to run with your pack as she leads you into the Fae Wild."))
+                data["end"] = "hound"
+
 
 def treehouse_run():
     print(fill("You take off at a run towards the treehouse, it's not far, you should be fine. The baying continues to sound closer as your feet hit the path. They sound faster than they have any right to be. As you round the last turn towards the treehouse, a crash sounds behind you and you hear growls and snarls behind you. You don't look back, running across the faint line in the dirt around the treehouse and slamming into the tree trunk, scrambling around to get to the ladder. You glance behind you as you fumble on the ladder slats, and you stop completely.\n\n"))
 
+    if data["burned"] == True:
+        while True:
+            choice = input("Press Enter to continue")
+            if choice == "":
+                treehouse_end()
+    else:
+        treehouse_bad()
 
+
+def treehouse_bad():
+    global data
+    print(fill("The hounds are white and red, and huge. They've slammed to a halt at the line in the dirt, and are starting to circle around. The woman is also there. She is horribly lovely, and she is staring right at you.\n\n\"Hello, child.\"\nHer voice rocks through your mind, wiping away the adrenaline and panic, leaving only a lovely calm. She smiles at you and it is the most wonderful thing you have ever seen. You smile back, content.\n\n\"You are a troublesome child,\" she says. You shudder at her displeasure. \"You may as well come out of there.\""))
     while True:
         choice = input("Press Enter to continue")
+
         if choice == "":
-            treehouse_end()
+            if data["cuffs"] == True:
+                print(fill("Heat has been building on your hands and wrists, and now it reaches an uncomfortable level, almost burnig. Her hold on you slips and you shake your head and step back.\n\"Give me my uncle,\" you say. She throws her head back and laughs, making a chill go down your spine.\n\"Why would I do such a thing?\" she laughs. \"He and I had a deal, and it is still in force.\" One of the hounds sits at her side, and she lays a proprietary hand on its head.\n\"And he has been such a good hound. Won't you come join him?\"\nHorrified, you shake you head mutely. She shrugs. \"Oh well, come along boys. I had better pick up those lovely pieces of art on our way back. We wouldn't want this happening again...\"\n\nYou can only watch, numb, as she turns and walks out into the woods, hounds following along behind.\n\nIt's a long time before you can make yourself move again."))
+                data["end"] = "bad"
+                finish()
 
 
 def treehouse_end():
@@ -817,13 +872,45 @@ def treehouse_end():
 
     while True:
         choice = input("Press Enter to continue")
+        global data
         if choice == "":
-            print(fill("Her voice rocks through your mind, wiping away the adrenaline and panic, leaving only a lovely calm."))
-            if data["cuffs"] == True:  # TODO Story: if cuffs, you manage to throw off her glamour. Then you tell her that the works have been burned and she has to let your uncle go. Finally, one of the hounds stays behind as she and the rest leave. You take off the torque and put it on the hound carefully, and it turns back into your uncle.
-                print("")
-            else:  # TODO If not, she glamours you and you become a hound.
-                print("")
+            print(fill("Her voice rocks through your mind, wiping away the adrenaline and panic, leaving only a lovely calm. She smiles at you and it is the most wonderful thing you have ever seen. You smile back, content.\n\n \"You have done so much here,\" she says in a lilting voice. \"Your loyalty to your uncle is quite admirable. You would make a wonderful hound for me with such devotion.\" You think that her smile has maybe too many teeth...\n\n"))
+            if data["cuffs"] == True:
+                print("Heat has been building on your wrists and neck as you stared at her, and now it reaches an uncomfortable level, almost burning. You realize whatever hold she had on you is slipping and you take a step back, shaking your head to wake up more.\n\"No,\" you say, \"I've destroyed the art you made a deal about, now give back my uncle.\"\n\nHer face twists into a vicious snarl.\n\"You have cost me a hound, child. It would be better for you if you agreed to replace him.\"\n\n\"I have no deals with you, and the terms of his deal have been broken,\" you say. \"Give me back my uncle.\"")
+                end_best()
+            else:
+                print("Her eyes are the most entrancing thing you've ever seen, and her voice is captivating. You take a step forward and she smiles. You want to make her happy, you would do anything. So you walk forward and over the line in the dirt. She laughs, and you laugh, too. You know she'll take care of you. You feel a shiver over your skin as your body begins to change. But she is still laughing, and you trust she will do what is best for you. Your tail begins to wag as she reaches down to put a hand on your head. Your Lady loves you, and you begin to run with your pack as she leads you into the Fae Wild.")
+                data["end"] = "hound"
 
+
+
+def end_best():
+    choice = input("Press Enter to continue")
+    global data
+    data["end"] = "best"
+    if choice == "":
+        print(fill("The sound she makes is horrible, a scream of rage so intense the hounds begin to howl. Your vision begins to shake, so you shut your eyes and clamp your hands over your ears. It continues for another few moments, then abruptly cuts off, leaving an echo in the air. You cautiously let down your hands and open your eyes. The woman is gone, as are all but one of the hounds. It sits right outside the circle, its head tilted. As it sees you looking, its tail stards to wag.\n\nYou slowly walk towards it. Uncertain, you pause, and take the torque off your neck. You slowly walk out of the circle, ready to jump back if the animal lunges, but it just wags its tail faster. You lower the torque, and place it gently around the dog's neck."))
+        time.sleep(10)
+        print(fill("The hound shakes itself after a few moments, then whines and paws at the torque. It yelps once, making you flinch back into the circle. But when you look back, the hound is gone. Your uncle is sitting on the ground with the torque around his neck, staring at his hands and grinning."))
+        time.sleep(10)
+        finish()
+
+
+def finish():
+    print("\n\n\n")
+    print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+    print("================================")
+    print("-----------Inheritance----------")
+    print("================================")
+    print("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+    if data["end"] == "best":
+        print(fill("Congratulations! You discovered the secrets of your uncle's disappearance and were able to rescue him from the Fae woman."))
+    elif data["end"] == "hound":
+        print(fill("You were so close to victory, but you were missing some things. Oh well, at least life should be easy as a hound. Maybe you can do better if you try again? Good luck!"))
+    elif data["end"] == "bad":
+        print(fill("It's too bad the art didn't burn. Maybe there was something more to be done for it? Well, hopefully she won't be back, but you've lost your uncle permanently this time. Maybe you can try again and figure out some more secrets? I'm sure you'll do better next time."))
+
+    print(fill("Thank you for playing Inheritance, an investigation adventure by MG Marlowe."))
 
 
 #   ======   Game save functions   ======
